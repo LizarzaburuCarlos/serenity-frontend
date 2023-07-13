@@ -1,0 +1,40 @@
+.contenedor-card{
+    background-color: white;
+    border: 3px solid #2d3648;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .contenedor-img{
+    width: 150px;
+    min-width: 130px;
+  }
+  
+  .contenedor-img .imagen{
+    margin: auto;
+    width: 100%;
+    display: block;
+  }
+  
+  .info .nombres{
+    font-size: 22px;
+    font-weight: 600 ;
+    color: #2D3648;
+  }
+  
+  .btn-ver{
+    background-color: #2d3648;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  .btn-ver:hover{
+    background-color: white;
+    color: black;
+    box-shadow: inset 0 0 0 3px #2d3648;
+  }
+  

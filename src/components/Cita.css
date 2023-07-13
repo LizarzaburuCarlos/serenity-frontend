@@ -1,0 +1,77 @@
+.cita{
+    border: 2px solid hsl(220, 23%, 23%);
+    border-radius: 10px;
+}
+
+.cita__side{
+    background-color: #2d3648;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#date {
+    margin-top: 1px !important;
+}
+
+.ant-modal-body {
+    margin-top: 20px;
+}
+
+
+/* .cita__content{
+
+}
+
+.cita__data{
+
+}
+
+.cita__actions{
+
+} */
+
+.cita__button{
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    transition: all 0.3s;
+}
+
+.cita__button--see{
+    border: 3px solid #2BA33F;
+    color: #2BA33F;
+}
+
+.cita__button--edit{
+    border: 3px solid #db9a4d;
+    color: #db9a4d;
+}
+
+.cita__button--del{
+    border: 3px solid #ff5252;
+    color: #ff5252;
+}
+
+.cita__button:hover{
+    color: white;
+}
+
+.cita__button--see:hover{
+    color: white;
+    background-color: #2BA33F;
+}
+
+.cita__button--edit:hover{
+    color: white;
+    background-color: #db9a4d;
+}
+
+.cita__button--del:hover{
+    color: white;
+    background-color: #ff5252;
+}
+
+.disabled {
+    pointer-events: none;
+    display: none;
+}

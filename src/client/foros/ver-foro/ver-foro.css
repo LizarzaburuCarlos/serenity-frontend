@@ -1,0 +1,50 @@
+.foro-card{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.foro-titulo{
+    color:#2D3648;
+}
+
+.profile-name{
+    color:#2D3648;
+
+}
+
+.foro-paragraph{
+    color:#2D3648;
+
+}
+
+.iconito{
+    background-color: #2D3648;
+}
+
+.foro-add{
+    border: 2px solid #cbd2e0;
+    transition: 0.3s all;
+}
+
+.foro-add:hover{
+    border: 2px solid #2D3648;
+    background-color: #2D3648;
+}
+
+.foro-add:hover span{
+    color: white;
+}
+
+.foro-add:hover p{
+    color: white;
+}
+.foro-input textarea{
+    color: #2D3648;
+}
+
+.foro-input textarea:focus{
+    border: 2px solid #2D3648;
+}
+
+.responses-title{
+    color:#2D3648;
+
+}

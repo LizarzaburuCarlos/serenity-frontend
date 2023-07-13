@@ -1,0 +1,39 @@
+.foro-card{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.foro-title{
+    color:#2D3648;
+}
+
+.foro-title:hover{
+    color:#5e6b85;
+}
+
+.profile-name{
+    color:#2D3648;
+
+}
+
+.foro-paragraph{
+    color:#2D3648;
+
+}
+
+.iconito{
+    background-color: #2D3648;
+}
+
+.foro-add{
+    transition: 0.3s all;
+}
+
+.foro-add:hover{
+    background-color: #2D3648;
+}
+
+.foro-add:hover span{
+    color: white;
+}
+.foro-add:hover p{
+    color: white;
+}

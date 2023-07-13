@@ -1,0 +1,39 @@
+.especialidad__datos {
+    border: 3px solid #2d3648;
+    border-radius: 10px;
+}
+
+.horario{
+    border: 3px solid #2d3648;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.horarios__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2D3648;
+}
+
+.horario__title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #2D3648;
+}
+
+.especialidad__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2D3648;
+}
+
+.especialidad__paragraph{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+    
+}
+
+.especialidad__specialty{
+    border-top: 3px solid hsl(220, 23%, 23%);
+}

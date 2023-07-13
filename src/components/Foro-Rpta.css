@@ -1,0 +1,28 @@
+
+.comentario__button{
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    transition: all 0.3s;
+}
+
+
+.comentario__button--del{
+    border: 3px solid #ff5252;
+    color: #ff5252;
+}
+
+.comentario__button:hover{
+    color: white;
+}
+
+
+.comentario__button--del:hover{
+    color: white;
+    background-color: #ff5252;
+}
+
+.disabled {
+    pointer-events: none;
+    display: none;
+}

@@ -1,0 +1,24 @@
+.flotante{
+    background-color: #2D3648;
+    transition: 0.3s all;
+    border: 3px solid #2D3648;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.flotante:hover{
+    background-color: #c2cee6;
+}
+
+.flotante:hover svg{
+    fill: #2D3648;
+}
+
+.flotante svg{
+    width: 40%;
+    fill: white;
+}
+
+.btn-add{
+    background-color: #2D3648;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}

@@ -1,0 +1,51 @@
+.presentation {
+    border-bottom: 3px solid #2D3648;
+    height: fit-content;
+    min-height: calc(100vh - 100px);
+
+}
+
+.presentation__title {
+    font-size: 56px;
+    font-weight: 700;
+    color: #2D3648;
+}
+
+
+.presentation__undeline {
+    background-color: #c2cee6;
+}
+
+.presentation__paragraph {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+@media (max-width: 640px) {
+    .presentation {
+        height: fit-content;
+        min-height: 100vh;
+    }
+
+    .presentation__title {
+        margin-top: 40px;
+        font-size: 36px;
+
+    }
+
+    .presentation__undeline {
+        display: none;
+    }
+
+    .presentation__paragraph {
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+
+    .presentation__img{
+        display: none;
+    }
+
+}

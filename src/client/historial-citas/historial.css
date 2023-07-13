@@ -1,0 +1,43 @@
+.card{
+    border: 3px solid #2d3648;
+    border-radius: 10px;
+}
+
+.card__header{
+    border-bottom: 3px solid hsl(220, 23%, 23%);
+}
+
+.card__icon{
+    border-right: 3px solid #2d3648;
+    border-top-left-radius: 7px;
+    color: #2d3648;
+}
+
+.card__icon--accepted{
+    background-color: #34aff7;
+}
+
+.card__icon--wait{
+    background-color: #2edb4b;
+}
+
+.card__icon--past{
+    background-color: #ffd43a;
+}
+
+.card__title{
+    border-top-right-radius: 7px;
+    color: #2d3648;
+}
+
+.card__title--accepted{
+    background-color: #b0dcff;
+}
+
+.card__title--wait{
+    background-color: #d1ffd9;
+}
+
+.card__title--past{
+    background-color: #ffedad;
+}

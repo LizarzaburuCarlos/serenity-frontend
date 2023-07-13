@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.contenedor {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-login-cliente {
+  position: relative;
+  max-width: 430px;
+  height: fit-content;
+  width: 440px;
+  border: 2px solid #2d3648;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.logo-cliente {
+  display: block;
+  margin: 0 auto;
+  height: 45px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.form-login-cliente .input-field-cliente {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-login-cliente .input-field-cliente label {
+  letter-spacing: -0.01em;
+  color: #2d3648;
+  font-size: 16px;
+  font-feature-settings: "calt" off;
+
+  font-weight: 500;
+}
+
+.form-login-cliente .input-field-cliente input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #cbd2e0;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.form-login-cliente .input-field-cliente input:is(:focus, :valid) {
+  border: 2px solid #cbd2e0;
+}
+
+.form-login-cliente .button input {
+  background: #2d3648;
+  border-radius: 6px;
+  color: white;
+
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button input:hover {
+  background: #46526c;
+}
+
+.form-login-cliente .login-signup-cliente {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.login-signup-cliente a {
+  color: #2d3648;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .form-login-cliente {
+    width: fit-content;
+  }
+}
+
+.errors-message {
+  padding-top: 40px;
+  color: red;
+}
+
+.rollback{
+  color: #2d3648;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.rollback:hover{
+  color: #58637d;
+}

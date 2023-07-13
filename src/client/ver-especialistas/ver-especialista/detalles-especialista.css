@@ -1,0 +1,12 @@
+.content__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2D3648;
+
+}
+
+.content__paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}

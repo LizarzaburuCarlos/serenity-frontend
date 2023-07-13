@@ -1,0 +1,24 @@
+
+.especialidad-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #2D3648;
+  
+  }
+  
+  .especialidad-paragraph{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+  }
+  
+  
+  .ant-tabs-tab {
+    background-color: #2D3648;
+    border: none;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+  }
+  

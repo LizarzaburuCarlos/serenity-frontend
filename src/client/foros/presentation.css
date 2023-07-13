@@ -1,0 +1,43 @@
+.presentation {
+    border-bottom: 3px solid #2D3648;
+    height: calc(100vh - 100px);
+  }
+  
+  .title {
+    font-size: 56px;
+    font-weight: 700;
+    color: #2D3648;
+  
+  }
+  
+  .subrayado {
+    background-color: #c2cee6;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    line-height: 30px;
+  
+  }
+  
+  @media (max-width: 640px) {
+    .presentation{
+      height: 100vh;
+    }
+    .title {
+      margin-top: 40px;
+      font-size: 36px;
+    
+    }
+    
+    .subrayado {
+      display: none;
+    }
+    
+    .paragraph {
+      font-size: 16px;
+      line-height: 25px;
+    
+    }
+    
+  }
